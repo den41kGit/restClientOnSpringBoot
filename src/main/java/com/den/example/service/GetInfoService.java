@@ -6,6 +6,6 @@ package com.den.example.service;
 
 public interface GetInfoService {
 
-    void getInfo();
+    void getInfo(String url);
 
 }

@@ -1,2 +1,7 @@
-urlForUsers:
-  "http://localhost:9090/users/"
+server:
+  port: 9090
+
+urlForGetInfo:
+  "http://localhost:8080/users/"
+recountNewUsersInfoJob:
+  "120000"
